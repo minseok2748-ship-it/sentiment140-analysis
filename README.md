@@ -22,12 +22,12 @@ Kotlin + Gradle 기반 데이터 전처리 및 분석 프로젝트
 
 ## 프로젝트 구조
 sentiment140-analysis/
- src/main/kotlin/Main.kt # 전체 분석 코드
+ src/main/kotlin/Main.kt (전체 분석 코드
  
  build.gradle.kts
- README.md # 실행 방법 / 요약 설명
+ README.md  (실행 방법 / 요약 설명
  
- analysis.md # 실행 후 자동 생성되는 분석 결과
+ analysis.md (실행 후 자동 생성되는 분석 결과
 
 ---
 
