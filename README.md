@@ -23,12 +23,11 @@ Kotlin + Gradle 기반 데이터 전처리 및 분석 프로젝트
 ## 프로젝트 구조
 sentiment140-analysis/
  src/main/kotlin/Main.kt # 전체 분석 코드
+ 
  build.gradle.kts
  README.md # 실행 방법 / 요약 설명
+ 
  analysis.md # 실행 후 자동 생성되는 분석 결과
-
-yaml
-Copy code
 
 ---
 
@@ -39,8 +38,6 @@ Kaggle에서 Sentiment140 데이터를 다운로드 후 압축 해제
 파일 이름:
 training.1600000.processed.noemoticon.csv
 
-makefile
-Copy code
 
 ### 2. IntelliJ 실행 설정
 Run → Edit Configurations → Program arguments 입력
@@ -48,14 +45,9 @@ Run → Edit Configurations → Program arguments 입력
 예:
 "C:\Users\PC\Downloads\training.1600000.processed.noemoticon.csv"
 
-shell
-Copy code
 
 ### 3. 실행
 ./gradlew run --args="C:/Users/PC/Downloads/training.1600000.processed.noemoticon.csv"
-
-yaml
-Copy code
 
 ---
 
